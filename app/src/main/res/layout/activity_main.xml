@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:text="Water Tracker" android:onClick="openWater" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="Workout Tracker" android:onClick="openWorkout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="Workout Timer" android:onClick="openTimer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:text="Mindfulness Breathing" android:onClick="openMindfulness" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
